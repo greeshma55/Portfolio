@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body class="light">
+    <nav>
+        <div class="logo" id="logoName">Greeshma Reddy</div>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul id="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about" id="nav-about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><span class="theme-toggle" onclick="toggleTheme()">🌓</span></li>
+        </ul>
+    </nav>
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-image">
+                <img src="photo3.jpg" alt="Greeshma Reddy">
+            </div>
+            <div class="home-text">
+            <p>Hello, I'm</p>
+            <h1>Gollapalli Greeshma Reddy</h1>
+            <h2>Full Stack Developer</h2>
+            <p class="tagline">Passionate CSE final year student who loves building web apps, exploring new tech, and staying updated with industry trends.<br>
+              An inquisitive and highly motivated full stack web developer with specialisation in MERN stack. Have relevant hands-on experience in building multiple websites from scratch. Seeking to pursue a career in a challenging environment to hone industry skill.
+            </p>
+      
+            <div class="cta-buttons">
+                <button class="btn resume-btn filled" onclick="window.open('deolitee.pdf', '_blank')">View Resume</button>
+                <button class="btn resume-btn outlined" onclick="downloadResume()">Download Resume</button>
+            </div>
+              
+            <div class="socials">
+              <a href="https://github.com/"><img src="https://postimage.me/images/2025/04/25/github.png"></a>
+              <a href="https://linkedin.com/" target="_blank"><img src="https://postimage.me/images/2025/04/25/linkedin-1.png"></a>
+              <a href="https://discord.com/" ><img src="https://postimage.me/images/2025/04/25/message-1.png"></a>
+            </div>
+          </div>    
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi, I'm <strong>Gollapalli Greeshma Reddy</strong>, from Ananthapur, Andhra Pradesh.I'm a final year Computer Science student with a passion for building dynamic web apps and continuously exploring new technologies. I'm always eager to learn and stay updated in the fast-paced tech world.</p>
+                    <p>I enjoy creating user-friendly applications and challenging myself with new projects. I believe in writing clean, efficient code and sharing knowledge with the community.</p>
+                </div>
+            </div>
+             
+
+  
+        <!-- Education Timeline -->
+        <h3 class="section-subtitle">My Journey</h3>
+        <div class="timeline">
+            <div class="timeline-item">
+            <div class="timeline-year">2025</div>
+            <ul>
+                <li>Currently pursuing B.Tech in Computer Science</li>
+                <li>Working on final-year project: Helmet Detection using YOLO</li>
+                <li>Learning MongoDB and improving backend skills</li>
+            </ul>
+            </div>
+            <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <ul>
+                <li>Started learning full-stack development</li>
+                <li>Built several web applications and mini-projects</li>
+            </ul>
+            </div>
+            <div class="timeline-item">
+            <div class="timeline-year">2023</div>
+            <ul>
+                <li>Learned Python and SQL deeply</li>
+                <li>Started working with YOLO and OCR APIs</li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-container">
+      <h1>SKILLS</h1>
+    
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h2>Frontend</h2>
+          <ul>
+            <li><img src="https://postimage.me/images/2025/04/23/html5.png" class="skill-logo"> HTML5</li>
+            <li><img src="https://postimage.me/images/2025/04/25/css.png" class="skill-logo"> CSS3</li>
+            <li><img src="https://postimage.me/images/2025/04/23/javascript.png" class="skill-logo">JavaScript</li>
+            
+          </ul>
+        </div>
+    
+        <div class="skill-category">
+          <h2>Backend</h2>
+          <ul>
+            <li><img src="https://postimage.me/images/2025/04/23/python.png" class="skill-logo"> Python</li>
+            <li><img src="https://postimage.me/images/2025/04/23/java.png" class="skill-logo">Java</li>
+            <li><img src="https://postimage.me/images/2025/04/25/c.png" class="skill-logo">C</li>
+            <li><img src="https://postimage.me/images/2025/04/23/node-js.png" class="skill-logo">Node.js</li>
+            <li><img src="https://postimage.me/images/2025/04/23/php.png" class="skill-logo">Php</li>
+            <li><img src="https://postimage.me/images/2025/04/23/javascript.png" class="skill-logo">JavaScript</li>
+          </ul>
+        </div>
+    
+        <div class="skill-category">
+          <h2>Databases</h2>
+          <ul>
+            <li><img src="https://postimage.me/images/2025/04/25/mongodb.png" class="skill-logo"> MongoDB</li>
+            <li><img src="https://postimage.me/images/2025/04/25/sql.png" class="skill-logo"> MS SQL Server</li>
+            <li><img src="https://postimage.me/images/2025/04/23/mysql.png" class="skill-logo"> MySQL</li>
+          </ul>
+        </div>
+    
+        <div class="skill-category">
+          <h2>Tools</h2>
+          <ul>
+            <li><img src="https://postimage.me/images/2025/04/23/git.png" class="skill-logo">Git</li>
+            <li><img src="https://postimage.me/images/2025/04/25/visual-studio-code.png" class="skill-logo"> Visual Studio</li>
+        
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- Main Projects Section -->
+    <section id="projects" class="project-section">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid" id="projectGrid">
+        <!-- Project Cards -->
+        <div class="project-card">
+          <h3 class="project-title">Helmet Detection System</h3>
+          <ul class="project-desc">
+            <li>Detects helmets and triple riding using YOLO.</li>
+            <li>Stores violation data in MySQL with license plate OCR.</li>
+          </ul>
+          <p class="tools">Tools: Python, OpenCV, YOLOv5, MySQL</p>
+          <button class="view-btn" onclick="openProjectOverlay('helmet')">View Project</button>
+        </div>
+        <!-- <div class="project-card">
+          <h3 class="project-title">IPL Predictions Project</h3>
+          <ul class="project-desc">
+            <li>Developed a predictive model to forecast IPL match outcomes using historical match data, team statistics, and player performance.</li>
+            <li>Utilized machine learning algorithms like Logistic Regression and Random Forest to achieve high accuracy, and visualized insights with Matplotlib and Seaborn.</li>
+          </ul>
+          <p class="tools">Tools: Python, MySQL,JupyterNotebook,</p>
+          <button class="view-btn" onclick="openProjectOverlay('ipl')">View Project</button>
+
+        </div>-->
+        <!-- Additional Project Cards can be added here -->
+      </div>
+      <button class="view-all-btn" id="viewAllBtn" onclick="viewAllProjects()">View All</button>
+    </section>
+    <!-- Fullscreen Project Overlay -->
+    <div id="projectOverlay" class="overlay">
+      <div class="overlay-navbar">
+        <button onclick="closeProjectOverlay()" class="back-btn">← Back</button>
+      </div>
+      <div class="overlay-content">
+        <h2 id="overlayTitle">Helmet Detection System</h2>
+        <p id="overlayDesc">A smart traffic violation detection system that uses YOLOv5 to detect riders without helmets or triple riding...</p>
+        <div class="project-output">
+          <img id="overlayImage" src="helmet-output.gif" alt="Project Output">
+        </div>
+        <div class="project-links">
+          <a id="overlayGit" href="#" target="_blank" class="link-btn">View on GitHub</a>
+          <a id="overlayDownload" href="#" class="link-btn" download>Download Project</a>
+        </div>
+      </div>
+      <!-- <div class="overlay-content">
+        <h2 id="overlayTitle">IPL </h2>
+        <p id="overlayDesc">A smart traffic violation detection system that uses YOLOv5 to detect riders without helmets or triple riding...</p>
+        <div class="project-output">
+          <img id="overlayImage" src="helmet-output.gif" alt="Project Output">
+        </div>
+        <div class="project-links">
+          <a id="overlayGit" href="#" target="_blank" class="link-btn">View on GitHub</a>
+          <a id="overlayDownload" href="#" class="link-btn" download>Download Project</a>
+        </div>
+      </div> -->
+    </div>
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-grid">
+        
+        <!-- Experience Card 1 -->
+        <div class="experience-card">
+          <img src="logos/make labs.png" alt="Make Labs Logo" class="company-logo">
+          <h3 class="role">Full Stack</h3>
+          <p class="company">Make Labs</p>
+          <p class="duration">Feb 2025 - Apr 2025</p>
+          <ul class="responsibilities">
+            <li>Built responsive webpages using HTML, CSS, and JS.</li>
+            <li>Worked on backend programs like Php</li>
+            <li>Improved performance of legacy systems.</li>
+          </ul>
+        </div>
+
+        <!-- Experience Card 2 -->
+        <div class="experience-card">
+          <img src="logos/intersnhipstudio.jpg" alt="Internship Studio Logo" class="company-logo">
+          <h3 class="role">Java Intern</h3>
+          <p class="company">Internship Studio</p>
+          <p class="duration">Jun 2024 - July 2024</p>
+          <ul class="responsibilities">
+            <li>Designed and implemented Java-based backend systems with clean, maintainable code following OOP principles.</li>
+            <li>Integrated APIs and optimized workflows.</li>
+            <li>Worked on debugging, testing, and deploying Java applications, improving system performance and scalability.</li>
+          </ul>
+        </div>
+
+        <!-- Experience Card 3 -->
+        <div class="experience-card">
+          <img src="logos/internpe.jpg" alt="InternPe Logo" class="company-logo">
+          <h3 class="role">AI/ML Intern</h3>
+          <p class="company">InternPe</p>
+          <p class="duration">Sep 2023 - Oct 2023</p>
+          <ul class="responsibilities">
+            <li>Analyzed datasets, performed feature engineering, and optimized models to enhance accuracy and performance.</li>
+            <li>Built machine learning models for classification and prediction tasks using Python libraries like scikit-learn and TensorFlow.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+      <h2 class="section-title">Certifications</h2>
+      <div class="certification-carousel">
+        <div class="certification-card">
+          <img src="certificate/data seciene.jpg" alt="Python for Data Science">
+          <p>Python For Data Science-Edx</p>
+        </div>
+        <div class="certification-card">
+          <img src="certificate/212H1A0555-1_page-0001.jpg" alt="Python Certification">
+          <p>Hackthon Certificate</p>
+        </div>
+        <div class="certification-card">
+          <img src="certificate/html.jpg" alt="Google Certification">
+          <p>HTML -Coddytech</p>
+        </div>
+        <div class="certification-card">
+          <img src="certificate/mongodb.png" alt="Google Certification">
+          <p>Mongodb - GeeksforGeeks</p>
+        </div>
+        <div class="certification-card">
+          <img src="certificate/python.png" alt="Google Certification">
+          <p>Python - Hackerrank</p>
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="contact-subtext">Have a project in mind or just want to say hello? Fill the form below!</p>
+      <div id="formMessage" class="form-message" style="display: none;"></div>
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="user_name" placeholder="Your Name" required />
+        <input type="email" name="user_email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="send-btn">Send Message</button>
+      </form>
+      
+    </section>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    
+    
+  </body>
+</html>
