@@ -413,7 +413,9 @@ body.light .socials a:hover {
   align-items: center;
   margin-bottom: 2rem;
 }
-
+.overlay-content .project-output img{
+  height: 300px;
+}
 .back-btn {
   background: none;
   color: #64FFDA; /* Accent color */

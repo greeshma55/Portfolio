@@ -92,12 +92,12 @@ const overlayDownload = document.getElementById("overlayDownload");
 
 // Project data (expand as needed)
 const projectData = {
-  helmet: {
-    title: "Helmet Detection System",
-    desc: "A smart traffic violation detection system that uses YOLOv5 to detect riders without helmets or triple riding, extracts license plate info using Tesseract OCR, and stores violations in a MySQL DB. Admin can view stats and download reports.",
-    image: "helmet-output.gif",
-    github: "https://github.com/username/helmet-detection",
-    download: "/downloads/helmet-detection.zip"
+  puma: {
+    title: "Puma Clone Website",
+    desc: "Developed a full-stack e-commerce web application enabling users to browse, search, and purchase products with a secure checkout flow.",
+    image: "output.png",
+    github: "https://github.com/greeshma55/E-commerce-website",
+    download: "https://github.com/greeshma55/E-commerce-website/archive/refs/heads/main.zip"
   }
 };
 
